@@ -210,23 +210,23 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .nose-icon {
-  background-image: url(../images/silly/hats/hat1.png);
+  background-image: url(../images/silly/noses/nose1.png);
 }
 
 .mouth-icon {
-  background-image: url(../images/silly/hats/hat1.png);
+  background-image: url(../images/silly/mouths/mouth2.png);
 }
 
 .hair-icon {
-  background-image: url(../images/silly/hats/hat1.png);
+  background-image: url(../images/silly/hair/hair1.png);
 }
 
 .hand-icon {
-  background-image: url(../images/silly/hats/hat1.png);
+  background-image: url(../images/silly/hands/hand1.png);
 }
 
 .accessories-icon {
-  background-image: url(../images/silly/hats/hat1.png);
+  background-image: url(../images/silly/accessories/accessory1.png);
 }
 
 .part-container {
@@ -298,6 +298,34 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .hat3 {
   background-image: url(../images/silly/hats/hat3.png);
+}
+
+.hat4 {
+  background-image: url(../images/silly/hats/hat4.png);
+}
+
+.hat5 {
+  background-image: url(../images/silly/hats/hat5.png);
+}
+
+.eye1 {
+  background-image: url(../images/silly/eyes/eye1.png);
+}
+
+.eye2 {
+  background-image: url(../images/silly/eyes/eye2.png);
+}
+
+.eye3 {
+  background-image: url(../images/silly/eyes/eye3.png);
+}
+
+.eye4 {
+  background-image: url(../images/silly/eyes/eye4.png);
+}
+
+.eye5 {
+  background-image: url(../images/silly/eyes/eye5.png);
 }
 
 .gallery {
