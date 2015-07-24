@@ -28,24 +28,55 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	background:grey;
 	margin:5px 0;
 }
-.ryan {
+.ryan-icon {
 	background: url(../images/Headshots/ryan.jpg) no-repeat;
 	background-size: contain;
 }
-.drew {
+.drew-icon {
 	background: url(../images/Headshots/drew.jpg) no-repeat;
 	background-size: contain;
 }
-.kristen {
+.kristen-icon {
 	background: url(../images/Headshots/kristen.jpg) no-repeat;
 	background-size: contain;
 }
-.item-container {
+.part-container {
 	height: 35vh;
 	width: 95%;
 	border: 1px solid black;
+	li {
+		list-style: none;
+		display: inline-block;
+	}
 }
+.part {
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	background-repeat:no-repeat;
+	z-index: 99;
+}
+.ryan-reye {
 
+}
+.drew-reye {
+	background-image: url(../images/Drew/drew-eye-right.png);
+}
+.drew-leye {
+	background-image: url(../images/Drew/drew-eye-left.png);
+}
+.drew-nose {
+	background-image: url(../images/Drew/drew-nose.png);
+}
+.kristen-reye {
+	background-image: url(../images/Kristen/kristen-eye-right.png);
+}
+.kristen-leye {
+	background-image: url(../images/Kristen/kristen-eye-left.png);
+}
+.kristen-nose {
+	background-image: url(../images/Kristen/kristen-nose.png);
+}
 
 
 
@@ -72,6 +103,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .tuber1 {
 	background: url(../images/tubers/potato.jpg) no-repeat;
 	background-size: contain;
+
 }
 .tuber2 {
 	background: url(../images/tubers/yam.jpg) no-repeat;
