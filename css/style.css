@@ -164,95 +164,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 /* End of setup styles */
-.menu {
-  margin-top: 5vh;
-}
-
-.menu h2 {
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-.icon {
-  width: 100px;
-  height: 100px;
-  margin: 5px 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.person-icon {
-  border-radius: 50%;
-}
-
-.ryan-icon {
-  background-image: url(../images/headshots/ryan.jpg);
-}
-
-.drew-icon {
-  background-image: url(../images/headshots/drew.jpg);
-}
-
-.kristen-icon {
-  background-image: url(../images/headshots/kristen.jpg);
-}
-
-.christopher-icon {
-  background-image: url(../images/headshots/christopher.jpg);
-}
-
-.james-icon {
-  background-image: url(../images/headshots/james.jpg);
-}
-
-.hat-icon {
-  background-image: url(../images/silly/hats/hat1.png);
-}
-
-.eye-icon {
-  background-image: url(../images/silly/eyes/eye1.png);
-}
-
-.nose-icon {
-  background-image: url(../images/silly/noses/nose1.png);
-}
-
-.mouth-icon {
-  background-image: url(../images/silly/mouths/mouth2.png);
-}
-
-.hair-icon {
-  background-image: url(../images/silly/hair/hair1.png);
-}
-
-.hand-icon {
-  background-image: url(../images/silly/hands/hand1.png);
-}
-
-.accessories-icon {
-  background-image: url(../images/silly/accessories/accessory1.png);
-}
-
-.part-container {
-  height: 37vh;
-  width: 95%;
-  border: 1px solid black;
-}
-
-.part-container li {
-  list-style: none;
-  display: inline-block;
-}
-
-.part {
-  width: 100px;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 99;
-  margin: 2px;
-}
-
 .drew-reye {
   background-image: url(../images/drew/drew-eye-right.png);
 }
@@ -485,6 +396,95 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/silly/accessories/accessory6.png);
 }
 
+.menu {
+  margin-top: 5vh;
+}
+
+.menu h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.person-icon {
+  border-radius: 50%;
+}
+
+.ryan-icon {
+  background-image: url(../images/headshots/ryan.jpg);
+}
+
+.drew-icon {
+  background-image: url(../images/headshots/drew.jpg);
+}
+
+.kristen-icon {
+  background-image: url(../images/headshots/kristen.jpg);
+}
+
+.christopher-icon {
+  background-image: url(../images/headshots/christopher.jpg);
+}
+
+.james-icon {
+  background-image: url(../images/headshots/james.jpg);
+}
+
+.hat-icon {
+  background-image: url(../images/silly/hats/hat1.png);
+}
+
+.eye-icon {
+  background-image: url(../images/silly/eyes/eye1.png);
+}
+
+.nose-icon {
+  background-image: url(../images/silly/noses/nose1.png);
+}
+
+.mouth-icon {
+  background-image: url(../images/silly/mouths/mouth2.png);
+}
+
+.hair-icon {
+  background-image: url(../images/silly/hair/hair1.png);
+}
+
+.hand-icon {
+  background-image: url(../images/silly/hands/hand1.png);
+}
+
+.accessories-icon {
+  background-image: url(../images/silly/accessories/accessory1.png);
+}
+
+.part-container {
+  height: 37vh;
+  width: 95%;
+  border: 1px solid black;
+}
+
+.part-container li {
+  list-style: none;
+  display: inline-block;
+}
+
+.part {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 10;
+  margin: 2px;
+}
+
 .gallery {
   height: 85vh;
   /*width: 80%;*/
@@ -530,4 +530,17 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .button {
   padding: 10px;
   border: 1px solid black;
+}
+
+.drop-anchor {
+  position: relative;
+}
+
+#drop-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9;
 }
