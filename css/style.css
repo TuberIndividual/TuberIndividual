@@ -308,6 +308,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/silly/hats/hat5.png);
 }
 
+.hat6 {
+  background-image: url(../images/silly/hats/hat6.png);
+}
+
 .eye1 {
   background-image: url(../images/silly/eyes/eye1.png);
 }
@@ -326,6 +330,106 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .eye5 {
   background-image: url(../images/silly/eyes/eye5.png);
+}
+
+.eye6 {
+  background-image: url(../images/silly/eyes/eye6.png);
+}
+
+.nose1 {
+  background-image: url(../images/silly/noses/nose1.png);
+}
+
+.nose2 {
+  background-image: url(../images/silly/noses/nose2.png);
+}
+
+.nose3 {
+  background-image: url(../images/silly/noses/nose3.png);
+}
+
+.nose4 {
+  background-image: url(../images/silly/noses/nose4.png);
+}
+
+.nose5 {
+  background-image: url(../images/silly/noses/nose5.png);
+}
+
+.nose6 {
+  background-image: url(../images/silly/noses/nose6.png);
+}
+
+.hair1 {
+  background-image: url(../images/silly/hair/hair1.png);
+}
+
+.hair2 {
+  background-image: url(../images/silly/hair/hair2.png);
+}
+
+.hair3 {
+  background-image: url(../images/silly/hair/hair3.png);
+}
+
+.hair4 {
+  background-image: url(../images/silly/hair/hair4.png);
+}
+
+.hair5 {
+  background-image: url(../images/silly/hair/hair5.png);
+}
+
+.hair6 {
+  background-image: url(../images/silly/hair/hair6.png);
+}
+
+.hand1 {
+  background-image: url(../images/silly/hands/hand1.png);
+}
+
+.hand2 {
+  background-image: url(../images/silly/hands/hand2.png);
+}
+
+.hand3 {
+  background-image: url(../images/silly/hands/hand3.png);
+}
+
+.hand4 {
+  background-image: url(../images/silly/hands/hand4.png);
+}
+
+.hand5 {
+  background-image: url(../images/silly/hands/hand5.png);
+}
+
+.hand6 {
+  background-image: url(../images/silly/hands/hand6.png);
+}
+
+.accessory1 {
+  background-image: url(../images/silly/accessories/accessory1.png);
+}
+
+.accessory2 {
+  background-image: url(../images/silly/accessories/accessory2.png);
+}
+
+.accessory3 {
+  background-image: url(../images/silly/accessories/accessory3.png);
+}
+
+.accessory4 {
+  background-image: url(../images/silly/accessories/accessory4.png);
+}
+
+.accessory5 {
+  background-image: url(../images/silly/accessories/accessory5.png);
+}
+
+.accessory6 {
+  background-image: url(../images/silly/accessories/accessory6.png);
 }
 
 .gallery {

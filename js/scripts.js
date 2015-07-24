@@ -34,7 +34,41 @@ $(document).ready(function(){
 		$(".hat-parts").show();
 	});
 
+	// When you click on the eye icon, show the eye parts
+	$(".eye-icon").on("click", function(){
+		// $partLists.hide();
+		$(".eye-parts").show();
+	});
 
+	// When you click on the nose icon, show the nose parts
+	$(".nose-icon").on("click", function(){
+		// $partLists.hide();
+		$(".nose-parts").show();
+	});
+
+	// When you click on the mouth icon, show the mouth parts
+	$(".mouth-icon").on("click", function(){
+		// $partLists.hide();
+		$(".mouth-parts").show();
+	});
+
+	// When you click on the hair icon, show the hair parts
+	$(".hair-icon").on("click", function(){
+		// $partLists.hide();
+		$(".hair-parts").show();
+	});
+
+	// When you click on the hand icon, show the hand parts
+	$(".hand-icon").on("click", function(){
+		// $partLists.hide();
+		$(".hand-parts").show();
+	});
+
+	// When you click on the accessories icon, show the accessories parts
+	$(".accessories-icon").on("click", function(){
+		// $partLists.hide();
+		$(".accessories-parts").show();
+	});
 
 
 
