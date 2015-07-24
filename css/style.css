@@ -176,23 +176,49 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .icon {
   width: 100px;
   height: 100px;
-  background: grey;
   margin: 5px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .ryan-icon {
-  background: url(../images/Headshots/ryan.jpg) no-repeat;
-  background-size: contain;
+  background-image: url(../images/Headshots/ryan.jpg);
 }
 
 .drew-icon {
-  background: url(../images/Headshots/drew.jpg) no-repeat;
-  background-size: contain;
+  background-image: url(../images/Headshots/drew.jpg);
 }
 
 .kristen-icon {
-  background: url(../images/Headshots/kristen.jpg) no-repeat;
-  background-size: contain;
+  background-image: url(../images/Headshots/kristen.jpg);
+}
+
+.hat-icon {
+  background-image: url(../images/silly/hats/hat.png);
+}
+
+.eye-icon {
+  background-image: url(../images/silly/eyes/eye1.png);
+}
+
+.nose-icon {
+  background-image: url(../images/silly/hats/hat.png);
+}
+
+.mouth-icon {
+  background-image: url(../images/silly/hats/hat.png);
+}
+
+.hair-icon {
+  background-image: url(../images/silly/hats/hat.png);
+}
+
+.hand-icon {
+  background-image: url(../images/silly/hats/hat.png);
+}
+
+.accessories-icon {
+  background-image: url(../images/silly/hats/hat.png);
 }
 
 .part-container {
