@@ -28,6 +28,12 @@ $(document).ready(function(){
 		$(".christopher-parts").show();
 	});
 
+	// When you click on the james icon, show his parts
+	$(".james-icon").on("click", function(){
+		// $partLists.hide();
+		$(".james-parts").show();
+	});
+
 	// When you click on the hat icon, show the hat parts
 	$(".hat-icon").on("click", function(){
 		// $partLists.hide();
@@ -68,6 +74,7 @@ $(document).ready(function(){
 	$(".accessories-icon").on("click", function(){
 		// $partLists.hide();
 		$(".accessories-parts").show();
+		console.log("Hello");
 	});
 
 

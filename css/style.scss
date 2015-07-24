@@ -33,6 +33,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 // --- Icons ---
 
 // Person icons
+.person-icon {
+	border-radius: 50%;
+}
 .ryan-icon {
 	background-image: url(../images/headshots/ryan.jpg);
 }
@@ -76,7 +79,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 // --- Parts --- 
 
 .part-container {
-	height: 35vh;
+	height: 37vh;
 	width: 95%;
 	border: 1px solid black;
 	li {
@@ -90,6 +93,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	background-size: contain;
 	background-repeat:no-repeat;
 	z-index: 99;
+	margin: 2px;
 }
 
 // Person parts
@@ -129,6 +133,27 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .christopher-nose {
 	background-image: url(../images/christopher/christopher-nose.png);
 }
+.christopher-mouth {
+	background-image: url(../images/christopher/christopher-mouth.png);
+}
+
+.james-reye {
+	background-image: url(../images/james/james-eye-right.png);
+}
+.james-leye {
+	background-image: url(../images/james/james-eye-left.png);
+}
+.james-nose {
+	background-image: url(../images/james/james-nose.png);
+}
+.james-mouth {
+	background-image: url(../images/james/james-mouth.png);
+}
+.james-hair {
+	background-image: url(../images/james/james-hair.png);
+}
+
+
 
 // Silly parts
 
@@ -193,6 +218,26 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	background-image: url(../images/silly/noses/nose6.png);
 }
 
+// Mouths
+
+.mouth1 {
+	background-image: url(../images/silly/mouths/mouth1.png);
+}
+.mouth2 {
+	background-image: url(../images/silly/mouths/mouth2.png);
+}
+.mouth3 {
+	background-image: url(../images/silly/mouths/mouth3.png);
+}
+.mouth4 {
+	background-image: url(../images/silly/mouths/mouth4.png);
+}
+.mouth5 {
+	background-image: url(../images/silly/mouths/mouth5.png);
+}
+.mouth6 {
+	background-image: url(../images/silly/mouths/mouth6.png);
+}
 
 // Hair
 
@@ -237,22 +282,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 // Accessories
-.accessory1 {
+.accessories1 {
 	background-image: url(../images/silly/accessories/accessory1.png);
 }
-.accessory2 {
+.accessories2 {
 	background-image: url(../images/silly/accessories/accessory2.png);
 }
-.accessory3 {
+.accessories3 {
 	background-image: url(../images/silly/accessories/accessory3.png);
 }
-.accessory4 {
+.accessories4 {
 	background-image: url(../images/silly/accessories/accessory4.png);
 }
-.accessory5 {
+.accessories5 {
 	background-image: url(../images/silly/accessories/accessory5.png);
 }
-.accessory6 {
+.accessories6 {
 	background-image: url(../images/silly/accessories/accessory6.png);
 }
 
