@@ -80,9 +80,9 @@ $(document).ready(function(){
 	// Droppable container
 	$("#drop-container").droppable({
 		accept:'.drop-thing',
-		// tolerance: 'pointer',
+		tolerance: 'pointer',
 		drop: function(event, ui) {
-			$(this).append($(ui.helper).clone().addClass("resizable ui-resizable"));
+			$(this).append($(ui.helper).clone().css("left","200px").addClass("resizable ui-resizable"));
 			$('#drop-container .part').addClass('item');
 			$(".item").removeClass('ui-draggable product drop-thing');
 			$('.item').resizable().draggable({

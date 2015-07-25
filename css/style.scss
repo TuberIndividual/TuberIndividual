@@ -17,6 +17,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 @import 'parts';
 
+body {
+	background:url(../images/white-grunge.jpg);
+}
+
 // ------ Menu Styles ------
 .menu {
 	margin-top: 5vh;
@@ -101,6 +105,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 // ------ Main content Styles ------
+.main-content {
+	padding-left:100px;
+}
 .gallery {
 	height: 85vh;
 	/*width: 80%;*/
@@ -125,18 +132,30 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   bottom: 20px;
 }
 .tuber1 {
-	background: url(../images/tubers/potato.jpg) no-repeat;
+	background: url(../images/tubers/potato.png) center no-repeat;
 	background-size: contain;
 
 }
 .tuber2 {
-	background: url(../images/tubers/yam.jpg) no-repeat;
+	background: url(../images/tubers/yam.png) center no-repeat;
 	background-size: contain;
 }
 .tuber3 {
-	background: url(../images/tubers/jicama.jpg) no-repeat;
+	background: url(../images/tubers/jicama.png) center no-repeat;
 	background-size: contain;
 }
+.tuber4 {
+	background: url(../images/tubers/taro.png) center no-repeat;
+	background-size: contain;
+}
+// .tuber5 {
+// 	background: url(../images/tubers/ubeyam.jpg) center no-repeat;
+// 	background-size: contain;
+// }
+// .tuber6 {
+// 	background: url(../images/tubers/taro3.jpg) center no-repeat;
+// 	background-size: contain;
+// }
 .button {
 	padding: 10px;
 	border: 1px solid black;
@@ -149,11 +168,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 #drop-container {
 	position: absolute;
-	top:0;
-	left:0;
-	height: 100vh;
-	width: 100%;
+	top:0px;
+	right:70px;
+	left:70px;
+	height: 80vh;
 	z-index:9;
+	// border:1px solid black;
 }
 
 

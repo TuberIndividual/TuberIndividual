@@ -396,6 +396,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/silly/accessories/accessory6.png);
 }
 
+body {
+  background: url(../images/white-grunge.jpg);
+}
+
 .menu {
   margin-top: 5vh;
 }
@@ -485,6 +489,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   margin: 2px;
 }
 
+.main-content {
+  padding-left: 100px;
+}
+
 .gallery {
   height: 85vh;
   /*width: 80%;*/
@@ -513,17 +521,22 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .tuber1 {
-  background: url(../images/tubers/potato.jpg) no-repeat;
+  background: url(../images/tubers/potato.png) center no-repeat;
   background-size: contain;
 }
 
 .tuber2 {
-  background: url(../images/tubers/yam.jpg) no-repeat;
+  background: url(../images/tubers/yam.png) center no-repeat;
   background-size: contain;
 }
 
 .tuber3 {
-  background: url(../images/tubers/jicama.jpg) no-repeat;
+  background: url(../images/tubers/jicama.png) center no-repeat;
+  background-size: contain;
+}
+
+.tuber4 {
+  background: url(../images/tubers/taro.png) center no-repeat;
   background-size: contain;
 }
 
@@ -538,9 +551,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 #drop-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
+  top: 0px;
+  right: 70px;
+  left: 70px;
+  height: 80vh;
   z-index: 9;
 }
