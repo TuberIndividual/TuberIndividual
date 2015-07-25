@@ -20,10 +20,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 body {
 	background:url(../images/white-grunge.jpg);
 }
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	display:inline-block;
+	margin-top:8px;
+}
+.page-title {
+	text-align:center;
+}
+.hy-logo {
+	display:inline-block;
+	height: 48px;
+    position: relative;
+    top: -10px;
+    padding-right: 10px;
+}
 
 // ------ Menu Styles ------
 .menu {
-	margin-top: 5vh;
 	h2 {
 		text-transform: uppercase;
 		font-size: 16px;
@@ -55,8 +70,59 @@ body {
 .christopher-icon {
 	background-image: url(../images/headshots/christopher.jpg);
 }
+.adam-icon {
+	background-image: url(../images/headshots/adam.jpg);
+}
+.adeel-icon {
+	background-image: url(../images/headshots/adeel.jpg);
+}
+.alex-icon {
+	background-image: url(../images/headshots/alex.jpg);
+}
+.amanda-icon {
+	background-image: url(../images/headshots/amanda.jpg);
+}
+.anya-icon {
+	background-image: url(../images/headshots/anya.jpg);
+}
+.christinaf-icon {
+	background-image: url(../images/headshots/christinaf.jpg);
+}
+.christinag-icon {
+	background-image: url(../images/headshots/christinag.jpg);
+}
+.evan-icon {
+	background-image: url(../images/headshots/evan.jpg);
+}
+.francis-icon {
+	background-image: url(../images/headshots/francis.jpg);
+}
+.ivy-icon {
+	background-image: url(../images/headshots/ivy.jpg);
+}
 .james-icon {
 	background-image: url(../images/headshots/james.jpg);
+}
+.jeanne-icon {
+	background-image: url(../images/headshots/jeanne.jpg);
+}
+.jessicaj-icon {
+	background-image: url(../images/headshots/jessicaj.jpg);
+}
+.jessicat-icon {
+	background-image: url(../images/headshots/jessicat2.jpg);
+}
+.jo-icon {
+	background-image: url(../images/headshots/jo.jpg);
+}
+.joanne-icon {
+	background-image: url(../images/headshots/joanne.jpg);
+}
+.john-icon {
+	background-image: url(../images/headshots/john.jpg);
+}
+.laura-icon {
+	background-image: url(../images/headshots/laura.jpg);
 }
 
 // Silly icons
@@ -75,6 +141,9 @@ body {
 .hair-icon {
 	background-image: url(../images/silly/hair/hair1.png);
 }
+.facial-hair-icon {
+	background-image: url(../images/silly/facial-hair/facial-hair1.png);
+}
 .hand-icon {
 	background-image: url(../images/silly/hands/hand1.png);
 }
@@ -86,7 +155,7 @@ body {
 // --- Parts --- 
 
 .part-container {
-	height: 37vh;
+	height: 35vh;
 	width: 95%;
 	border: 1px solid black;
 	li {
@@ -109,7 +178,7 @@ body {
 	padding-left:100px;
 }
 .gallery {
-	height: 85vh;
+	height: 82vh;
 	/*width: 80%;*/
 	/*background: grey;*/
 }
@@ -149,19 +218,28 @@ body {
 	background-size: contain;
 }
 .tuber5 {
-	background: url(../images/tubers/artichoke.jpg) center no-repeat;
+	background: url(../images/tubers/artichoke.png) center no-repeat;
 	background-size: contain;
 }
-// .tuber6 {
-// 	background: url(../images/tubers/taro3.jpg) center no-repeat;
-// 	background-size: contain;
-// }
-.button {
-	padding: 10px;
-	border: 1px solid black;
+.tuber6 {
+	background: url(../images/tubers/ubeyam.png) center no-repeat;
+	background-size: contain;
 }
-.button-section {
-
+.tuber7 {
+	background: url(../images/tubers/cassava.png) center no-repeat;
+	background-size: contain;
+}
+.button {
+	padding:0 10px;
+	z-index:20;
+}
+.reset {
+	font-size:20px;
+	position:relative;
+	top:-10px;
+}
+.trash {
+	font-size:50px;
 }
 .drop-anchor {
 	position:relative;

@@ -6,6 +6,7 @@ $(document).ready(function(){
 
 	// When you click on an icon, show the parts for that category
 	$(".icon").on("click", function(){
+		console.log("hello");
 		$partLists.hide();
 		$("." + $(this).data('category') + "-parts").show();
 	});
@@ -18,9 +19,11 @@ $(document).ready(function(){
 			$(this).append($(ui.helper).clone().css("left","200px").addClass("resizable ui-resizable"));
 			$('#drop-container .part').addClass('item');
 			$(".item").removeClass('ui-draggable product drop-thing');
-			$('.item').resizable().draggable({
+			$('.item').resizable({
+				autoHide: true
+			}).draggable({
 				containment: 'container',
-				grid: [5,5]
+				// grid: [5,5]
 			});
 		}
 	});
@@ -39,6 +42,9 @@ $(document).ready(function(){
 	})
 
 	// Trash bin
+	$('#trash').on('click',function(e){
+		e.preventDefault();
+	})
 	$('#trash').droppable({
 	    drop: function(event, ui) {
 	        ui.draggable.remove();
