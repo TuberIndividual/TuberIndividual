@@ -316,6 +316,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/silly/accessories/accessory1.png);
 }
 
+.items-icon {
+  background-image: url(../images/silly/items/item1.png);
+}
+
 .ryan-reye {
   background-image: url(../images/ryan/ryan-right-eye.png);
 }
@@ -916,6 +920,30 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/silly/hair/hair6.png);
 }
 
+.facial-hair1 {
+  background-image: url(../images/silly/facial-hair/facial-hair1.png);
+}
+
+.facial-hair2 {
+  background-image: url(../images/silly/facial-hair/facial-hair2.png);
+}
+
+.facial-hair3 {
+  background-image: url(../images/silly/facial-hair/facial-hair3.png);
+}
+
+.facial-hair4 {
+  background-image: url(../images/silly/facial-hair/facial-hair4.png);
+}
+
+.facial-hair5 {
+  background-image: url(../images/silly/facial-hair/facial-hair5.png);
+}
+
+.facial-hair6 {
+  background-image: url(../images/silly/facial-hair/facial-hair6.png);
+}
+
 .hand1 {
   background-image: url(../images/silly/hands/hand1.png);
 }
@@ -962,6 +990,30 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .accessories6 {
   background-image: url(../images/silly/accessories/accessory6.png);
+}
+
+.item1 {
+  background-image: url(../images/silly/items/item1.png);
+}
+
+.item2 {
+  background-image: url(../images/silly/items/item2.png);
+}
+
+.item3 {
+  background-image: url(../images/silly/items/item3.png);
+}
+
+.item4 {
+  background-image: url(../images/silly/items/item4.png);
+}
+
+.item5 {
+  background-image: url(../images/silly/items/item5.png);
+}
+
+.item6 {
+  background-image: url(../images/silly/items/item6.png);
 }
 
 .tuber1 {
@@ -1135,4 +1187,5 @@ h1 {
 
 .trash {
   font-size: 50px;
+  padding: 50px;
 }

@@ -6,6 +6,7 @@ $(document).ready(function(){
 
 	// When you click on an icon, show the parts for that category
 	$(".icon").on("click", function(){
+		console.log("Hello");
 		$partLists.hide();
 		$("." + $(this).data('category') + "-parts").show();
 	});
