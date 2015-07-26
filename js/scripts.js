@@ -1,12 +1,11 @@
 $(document).ready(function(){
 
 	// Initially hide all the parts
-	var $partLists =$(".part-list"); 
+	var $partLists = $(".part-list"); 
 	$partLists.hide();
 
 	// When you click on an icon, show the parts for that category
 	$(".icon").on("click", function(){
-		console.log("hello");
 		$partLists.hide();
 		$("." + $(this).data('category') + "-parts").show();
 	});
@@ -28,8 +27,6 @@ $(document).ready(function(){
 		}
 	});
 
-
-
 	// Make all the parts draggable
 	$(".part").draggable({
 		helper: 'clone',
@@ -44,8 +41,7 @@ $(document).ready(function(){
 	// Trash bin
 	$('#trash').on('click',function(e){
 		e.preventDefault();
-	})
-	$('#trash').droppable({
+	}).droppable({
 	    drop: function(event, ui) {
 	        ui.draggable.remove();
 	    }
