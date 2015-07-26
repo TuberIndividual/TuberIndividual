@@ -108,24 +108,17 @@ h1 {
   bottom: 20px;
 }
 
+.people-icons .flickity-page-dots .dot {
+  width: 0;
+  height: 0;
+}
+
 
 // ------ Main content Styles ------
 .main-content {
 	padding-left:100px;
 }
 
-.button {
-	padding:0 10px;
-	z-index:20;
-}
-.reset {
-	font-size:20px;
-	position:relative;
-	top:-10px;
-}
-.trash {
-	font-size:50px;
-}
 .drop-anchor {
 	position:relative;
 }
@@ -137,6 +130,26 @@ h1 {
 	height: 80vh;
 	z-index:9;
 	// border:1px solid black;
+}
+.button-anchor {
+	position:relative;
+}
+.button-container {
+	position:absolute;
+	top: -30px;
+
+}
+.button {
+	padding:0 10px;
+	z-index:20;
+}
+.reset {
+	font-size:20px;
+	position:relative;
+	top:-10px;
+}
+.trash {
+	font-size:50px;
 }
 
 

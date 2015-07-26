@@ -252,6 +252,38 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/headshots/laura.jpg);
 }
 
+.lee-icon {
+  background-image: url(../images/headshots/lee.jpg);
+}
+
+.miguel-icon {
+  background-image: url(../images/headshots/miguel.jpg);
+}
+
+.nadia-icon {
+  background-image: url(../images/headshots/nadia.jpg);
+}
+
+.robin-icon {
+  background-image: url(../images/headshots/robin.jpg);
+}
+
+.tarah-icon {
+  background-image: url(../images/headshots/tarah.jpg);
+}
+
+.tim-icon {
+  background-image: url(../images/headshots/tim.jpg);
+}
+
+.vesna-icon {
+  background-image: url(../images/headshots/vesna.jpg);
+}
+
+.yana-icon {
+  background-image: url(../images/headshots/yana.jpg);
+}
+
 .hat-icon {
   background-image: url(../images/silly/hats/hat1.png);
 }
@@ -282,6 +314,22 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .accessories-icon {
   background-image: url(../images/silly/accessories/accessory1.png);
+}
+
+.ryan-reye {
+  background-image: url(../images/ryan/ryan-right-eye.png);
+}
+
+.ryan-leye {
+  background-image: url(../images/ryan/ryan-left-eye.png);
+}
+
+.ryan-nose {
+  background-image: url(../images/ryan/ryan-nose.png);
+}
+
+.ryan-mouth {
+  background-image: url(../images/ryan/ryan-mouth.png);
 }
 
 .drew-reye {
@@ -612,6 +660,46 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-image: url(../images/laura/laura-mouth.png);
 }
 
+.lee-eye {
+  background-image: url(../images/lee/lee-eyes.png);
+}
+
+.lee-nose {
+  background-image: url(../images/lee/lee-nose.png);
+}
+
+.lee-mouth {
+  background-image: url(../images/lee/lee-mouth.png);
+}
+
+.miguel-eye {
+  background-image: url(../images/miguel/miguel-eyes.png);
+}
+
+.miguel-nose {
+  background-image: url(../images/miguel/miguel-nose.png);
+}
+
+.miguel-mouth {
+  background-image: url(../images/miguel/miguel-mouth.png);
+}
+
+.nadia-reye {
+  background-image: url(../images/nadia/nadia-right-eye.png);
+}
+
+.nadia-leye {
+  background-image: url(../images/nadia/nadia-left-eye.png);
+}
+
+.nadia-nose {
+  background-image: url(../images/nadia/nadia-nose.png);
+}
+
+.nadia-mouth {
+  background-image: url(../images/nadia/nadia-mouth.png);
+}
+
 .lee-reye {
   background-image: url(../images/lee/lee-right-eye.png);
 }
@@ -626,6 +714,86 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .lee-mouth {
   background-image: url(../images/lee/lee-mouth.png);
+}
+
+.robin-reye {
+  background-image: url(../images/robin/robin-right-eye.png);
+}
+
+.robin-leye {
+  background-image: url(../images/robin/robin-left-eye.png);
+}
+
+.robin-nose {
+  background-image: url(../images/robin/robin-nose.png);
+}
+
+.robin-mouth {
+  background-image: url(../images/robin/robin-mouth.png);
+}
+
+.tarah-reye {
+  background-image: url(../images/tarah/tarah-right-eye.png);
+}
+
+.tarah-leye {
+  background-image: url(../images/tarah/tarah-left-eye.png);
+}
+
+.tarah-nose {
+  background-image: url(../images/tarah/tarah-nose.png);
+}
+
+.tarah-mouth {
+  background-image: url(../images/tarah/tarah-mouth.png);
+}
+
+.tim-reye {
+  background-image: url(../images/tim/tim-right-eye.png);
+}
+
+.tim-leye {
+  background-image: url(../images/tim/tim-left-eye.png);
+}
+
+.tim-nose {
+  background-image: url(../images/tim/tim-nose.png);
+}
+
+.tim-mouth {
+  background-image: url(../images/tim/tim-mouth.png);
+}
+
+.vesna-reye {
+  background-image: url(../images/vesna/vesna-right-eye.png);
+}
+
+.vesna-leye {
+  background-image: url(../images/vesna/vesna-left-eye.png);
+}
+
+.vesna-nose {
+  background-image: url(../images/vesna/vesna-nose.png);
+}
+
+.vesna-mouth {
+  background-image: url(../images/vesna/vesna-mouth.png);
+}
+
+.yana-reye {
+  background-image: url(../images/yana/yana-right-eye.png);
+}
+
+.yana-leye {
+  background-image: url(../images/yana/yana-left-eye.png);
+}
+
+.yana-nose {
+  background-image: url(../images/yana/yana-nose.png);
+}
+
+.yana-mouth {
+  background-image: url(../images/yana/yana-mouth.png);
 }
 
 .hat1 {
@@ -923,8 +1091,35 @@ h1 {
   bottom: 20px;
 }
 
+.people-icons .flickity-page-dots .dot {
+  width: 0;
+  height: 0;
+}
+
 .main-content {
   padding-left: 100px;
+}
+
+.drop-anchor {
+  position: relative;
+}
+
+#drop-container {
+  position: absolute;
+  top: 0px;
+  right: 70px;
+  left: 70px;
+  height: 80vh;
+  z-index: 9;
+}
+
+.button-anchor {
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  top: -30px;
 }
 
 .button {
@@ -940,17 +1135,4 @@ h1 {
 
 .trash {
   font-size: 50px;
-}
-
-.drop-anchor {
-  position: relative;
-}
-
-#drop-container {
-  position: absolute;
-  top: 0px;
-  right: 70px;
-  left: 70px;
-  height: 80vh;
-  z-index: 9;
 }

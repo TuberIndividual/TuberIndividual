@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>HackerYou Tuber Individual</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -24,7 +26,7 @@
 					<div class="row">
 						<h2>People</h2>
 					</div>
-					<div class="row">
+					<div class="row people-icons">
 						<div class="gallery2 js-flickity" data-flickity-options='{ "cellAlign": "center", "imagesLoaded": true, "wrapAround": true }' >
 							<div class="gallery-cell2 ryan-icon person-icon icon" data-category="ryan"></div>
 							<div class="gallery-cell2 drew-icon person-icon icon" data-category="drew"></div>
@@ -48,6 +50,14 @@
 							<div class="gallery-cell2 joanne-icon person-icon icon" data-category="joanne"></div>
 							<div class="gallery-cell2 john-icon person-icon icon" data-category="john"></div>
 							<div class="gallery-cell2 laura-icon person-icon icon" data-category="laura"></div>
+							<div class="gallery-cell2 lee-icon person-icon icon" data-category="lee"></div>
+							<div class="gallery-cell2 miguel-icon person-icon icon" data-category="miguel"></div>
+							<div class="gallery-cell2 nadia-icon person-icon icon" data-category="nadia"></div>
+							<div class="gallery-cell2 robin-icon person-icon icon" data-category="robin"></div>
+							<div class="gallery-cell2 tarah-icon person-icon icon" data-category="tarah"></div>
+							<div class="gallery-cell2 tim-icon person-icon icon" data-category="tim"></div>
+							<div class="gallery-cell2 vesna-icon person-icon icon" data-category="vesna"></div>
+							<div class="gallery-cell2 yana-icon person-icon icon" data-category="yana"></div>
 						</div>
 					</div>
 				</div>
@@ -73,6 +83,7 @@
 								<li><div class="part ryan-leye"></div></li>
 								<li><div class="part ryan-reye"></div></li>
 								<li><div class="part ryan-nose"></div></li>
+								<li><div class="part ryan-mouth"></div></li>
 							</ul>
 							<ul class="part-list drew-parts">
 								<li><div class="part drop-thing drew-leye"></div></li>
@@ -191,6 +202,52 @@
 								<li><div class="part drop-thing laura-nose"></div></li>
 								<li><div class="part drop-thing laura-mouth"></div></li>
 							</ul>
+							<ul class="part-list lee-parts">
+								<li><div class="part drop-thing lee-eye"></div></li>
+								<li><div class="part drop-thing lee-nose"></div></li>
+								<li><div class="part drop-thing lee-mouth"></div></li>
+							</ul>
+							<ul class="part-list miguel-parts">
+								<li><div class="part drop-thing miguel-eye"></div></li>
+								<li><div class="part drop-thing miguel-nose"></div></li>
+								<li><div class="part drop-thing miguel-mouth"></div></li>
+							</ul>
+							<ul class="part-list nadia-parts">
+								<li><div class="part drop-thing nadia-leye"></div></li>
+								<li><div class="part drop-thing nadia-reye"></div></li>
+								<li><div class="part drop-thing nadia-nose"></div></li>
+								<li><div class="part drop-thing nadia-mouth"></div></li>
+							</ul>
+							<ul class="part-list robin-parts">
+								<li><div class="part drop-thing robin-leye"></div></li>
+								<li><div class="part drop-thing robin-reye"></div></li>
+								<li><div class="part drop-thing robin-nose"></div></li>
+								<li><div class="part drop-thing robin-mouth"></div></li>
+							</ul>
+							<ul class="part-list tarah-parts">
+								<li><div class="part drop-thing tarah-leye"></div></li>
+								<li><div class="part drop-thing tarah-reye"></div></li>
+								<li><div class="part drop-thing tarah-nose"></div></li>
+								<li><div class="part drop-thing tarah-mouth"></div></li>
+							</ul>
+							<ul class="part-list tim-parts">
+								<li><div class="part drop-thing tim-leye"></div></li>
+								<li><div class="part drop-thing tim-reye"></div></li>
+								<li><div class="part drop-thing tim-nose"></div></li>
+								<li><div class="part drop-thing tim-mouth"></div></li>
+							</ul>
+							<ul class="part-list vesna-parts">
+								<li><div class="part drop-thing vesna-leye"></div></li>
+								<li><div class="part drop-thing vesna-reye"></div></li>
+								<li><div class="part drop-thing vesna-nose"></div></li>
+								<li><div class="part drop-thing vesna-mouth"></div></li>
+							</ul>
+							<ul class="part-list yana-parts">
+								<li><div class="part drop-thing yana-leye"></div></li>
+								<li><div class="part drop-thing yana-reye"></div></li>
+								<li><div class="part drop-thing yana-nose"></div></li>
+								<li><div class="part drop-thing yana-mouth"></div></li>
+							</ul>
 							<ul class="part-list hat-parts">
 								<li><div class="part drop-thing hat1"></div></li>
 								<li><div class="part drop-thing hat2"></div></li>
@@ -231,6 +288,8 @@
 								<li><div class="part drop-thing accessories1"></div></li>
 								<li><div class="part drop-thing accessories2"></div></li>
 								<li><div class="part drop-thing accessories3"></div></li>
+								<li><div class="part drop-thing accessories4"></div></li>
+								<li><div class="part drop-thing accessories5"></div></li>
 							</ul>
 						</div>
 					</div>
@@ -258,8 +317,15 @@
 					<p>Created by....</p>
 				</div>
 					<div class="col-sm-4 col-sm-offset-4">
-						<a href="" class="reset button" id="reset">Reset</a>
-						<a href="" class="trash button" id="trash"><i class="fa fa-trash"></i></a>
+						<div class="button-anchor">
+							<div class="button-container">
+								<a href="" class="reset button" id="reset">Reset</a>
+								<a href="" class="trash button" id="trash">
+									<i class="fa fa-trash"></i>
+								</a>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 

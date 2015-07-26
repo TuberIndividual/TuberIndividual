@@ -15,7 +15,7 @@ $(document).ready(function(){
 		accept:'.drop-thing',
 		tolerance: 'pointer',
 		drop: function(event, ui) {
-			$(this).append($(ui.helper).clone().css("left","200px").addClass("resizable ui-resizable"));
+			$(this).append($(ui.helper).clone().css("left","30%").addClass("resizable ui-resizable"));
 			$('#drop-container .part').addClass('item');
 			$(".item").removeClass('ui-draggable product drop-thing');
 			$('.item').resizable({
