@@ -1057,7 +1057,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 body {
-  background: url(../images/white-grunge.jpg);
+  background: url(../images/backgrounds/concrete.png);
 }
 
 h1 {
@@ -1065,6 +1065,14 @@ h1 {
   font-size: 40px;
   display: inline-block;
   margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 
 .page-title {
@@ -1083,11 +1091,6 @@ h1 {
   border-radius: 50%;
 }
 
-.menu h2 {
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
 .icon {
   width: 100px;
   height: 100px;
@@ -1097,9 +1100,11 @@ h1 {
 }
 
 .part-container {
+  background: #E2E2E2;
   height: 35vh;
-  width: 95%;
-  border: 1px solid black;
+  width: 101%;
+  border: 4px lightgrey;
+  border-style: ridge;
 }
 
 .part-container li {
@@ -1143,7 +1148,7 @@ h1 {
   bottom: 20px;
 }
 
-.people-icons .flickity-page-dots .dot {
+.flickity-page-dots .dot {
   width: 0;
   height: 0;
 }
@@ -1177,6 +1182,7 @@ h1 {
 .button {
   padding: 0 10px;
   z-index: 20;
+  color: black;
 }
 
 .reset {
@@ -1185,7 +1191,15 @@ h1 {
   top: -10px;
 }
 
+.reset:hover {
+  text-decoration: none;
+}
+
 .trash {
   font-size: 50px;
   padding: 50px;
+}
+
+.trash:hover {
+  color: black;
 }

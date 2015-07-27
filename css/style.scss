@@ -21,13 +21,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 body {
-	background:url(../images/white-grunge.jpg);
+	background:url(../images/backgrounds/concrete.png);
 }
 h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 40px;
 	display:inline-block;
 	margin-top:8px;
+	letter-spacing: 1px;
+}
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 1px;
 }
 .page-title {
 	text-align:center;
@@ -45,12 +52,7 @@ h1 {
 }
 
 // ------ Menu Styles ------
-.menu {
-	h2 {
-		text-transform: uppercase;
-		font-size: 16px;
-	}
-}
+
 .icon {
 	width: 100px;
 	height: 100px;
@@ -65,9 +67,11 @@ h1 {
 // --- Parts --- 
 
 .part-container {
+	background: #E2E2E2;
 	height: 35vh;
-	width: 95%;
-	border: 1px solid black;
+	width: 101%;
+	border: 4px lightgrey;
+	border-style:ridge;
 	li {
 		list-style: none;
 		display: inline-block;
@@ -108,7 +112,7 @@ h1 {
   bottom: 20px;
 }
 
-.people-icons .flickity-page-dots .dot {
+.flickity-page-dots .dot {
   width: 0;
   height: 0;
 }
@@ -139,18 +143,29 @@ h1 {
 	top: -30px;
 
 }
+.button-section {
+	// position:relative;
+	// top: 20px;
+}
 .button {
 	padding:0 10px;
 	z-index:20;
+	color: black;
 }
 .reset {
 	font-size:20px;
 	position:relative;
 	top:-10px;
+	&:hover {
+		text-decoration: none;
+	}
 }
 .trash {
 	font-size:50px;
 	padding: 50px;
+	&:hover {
+		color: black;
+	}
 }
 
 
