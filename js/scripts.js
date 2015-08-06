@@ -37,7 +37,7 @@ $(document).ready(function(){
 	// Make reset button refresh the page
 	$("#reset").on("click", function(){
 		location.reload();
-	})
+	});
 
 	// Trash bin
 	$('#trash').on('click',function(e){
@@ -47,34 +47,6 @@ $(document).ready(function(){
 	        ui.draggable.remove();
 	    }
 	});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
 
